@@ -74,9 +74,9 @@ dos indivíduos.
 a)
 
 Hipertensão | Freq observada | Freq relativa
-hispertenso |      210       |       3%
-normotenso  |      159       |       55%
-   NA       |      11        |       42%
+hispertenso |      210       |       55%
+normotenso  |      159       |       41%
+   NA       |      11        |       4%
   TOTAL     |      380       |       100%
   
 Tabela com a distribuição de frequência para a variável Hipertensão
