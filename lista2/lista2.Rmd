@@ -110,9 +110,6 @@ hist(dados$Coltot, breaks = 8, xlab = "Coltot", ylab = "Frequência", main = "Hi
 #HDL
 hist(dados$HDL, breaks = 8, xlab = "HDL", ylab = "Frequência", main = "Histograma para a variável HDL")
 
-#HA
-hist(dados$HA, breaks = 8, xlab = "HA", ylab = "Frequência", main = "Histograma para a variável HA")
-
 #LDL
 hist(dados$LDL, breaks = 8, xlab = "LDL", ylab = "Frequência", main = "Histograma para a variável LDL")
 
@@ -136,13 +133,8 @@ boxplot(dados$Coltot, main = "Boxplot para a variável Coltot")
 #HDL
 boxplot(dados$HDL, main = "Boxplot para a variável HDL")
 
-#HA
-boxplot(dados$HA, main = "Boxplot para a variável HA")
-
 #Lesões
 boxplot(dados$Lesoes, main = "Boxplot para a variável Lesões")
-
-
 
 
 
