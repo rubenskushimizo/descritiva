@@ -64,13 +64,11 @@ library("csv")
 
 dados = read.csv("C:/Users/Dell/Documents/ESTAT 2021 1º SEMESTRE/Estatística descritiva/listii.csv", sep = ";", h=T, dec=",")
 
-'''
+
 A inconstência encontrada é que a data de coleta é muito anterior a data de nasimento 
 dos indivíduos.
-'''
 
 
-'''
 a)
 
 Hipertensão | Freq observada | Freq relativa
@@ -92,10 +90,9 @@ Presente |        293       |        77%
 
 Tabela com a distribuição de frequência para a variável Diabete
 
-'''
 
 
-'''
+
 b)
 
 #Histograma
@@ -144,11 +141,11 @@ boxplot(dados$HA, main = "Boxplot para a variável HA")
 
 #Lesões
 boxplot(dados$Lesoes, main = "Boxplot para a variável Lesões")
-'''
 
 
 
-'''
+
+
 c)
 
 #Medidas de resumo
@@ -171,9 +168,8 @@ summary(dados$LDL)
 #Lesões
 summary(dados$Lesoes)
 
-'''
 
-'''
+
 d) 
 
 #QQ
@@ -207,7 +203,6 @@ Os gráficos de QQ plot normal indicam que a distribuição de todas as variáve
 seguem uma distribuição normal, pois os ponto estão seguindo uma sequência da linha qq normal. 
 Exceto a variável "lesões", os pontos dela não seguem a linha qq normal.
 
-'''
 
 
 # Exercício 12
